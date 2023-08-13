@@ -9,7 +9,7 @@ import TodoCard from "./TodoCard";
 import { Button } from "@chakra-ui/react";
 import moment from "moment";
 import { useLocalStorage } from "react-use";
-import { DateContext } from "../App";
+import { DateContext } from "../pages/TodoApp";
 
 export const TodoContext = createContext();
 function Todo() {
@@ -93,7 +93,7 @@ function Todo() {
               id={el.id}
               onClick={setTodos}
               isDone={el.isComplete}
-              title={el.title + " " + moment(el.date).format("Do MMMM YYYY")}
+              title={el.title}
               key={el.id}
             />
           ))}

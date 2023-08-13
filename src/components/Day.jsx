@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { DateContext } from "../App";
+import { DateContext } from "../pages/TodoApp";
 import moment from "moment";
 
 function Day({ el, isToday, isSelected = false }) {

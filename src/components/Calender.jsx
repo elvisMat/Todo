@@ -4,7 +4,7 @@ import DayString from "./DayString";
 import Day from "./Day";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 import { IconButton } from "@chakra-ui/react";
-import { DateContext } from "../App";
+import { DateContext } from "../pages/TodoApp";
 function Calender() {
   const days = [];
 

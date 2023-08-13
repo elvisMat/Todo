@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useLocalStorage } from "react-use";
-import { DateContext } from "../App";
+import { DateContext } from "../pages/TodoApp";
 import { TodoContext } from "./Todo";
 
 function TodoCard({ title, id, isDone }) {
